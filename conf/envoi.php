@@ -2,8 +2,7 @@
 
 function eValide($l, $e, $t) {
 	$message = $l.",<br/>".EN_VALIDEMES1;
-	// Lien a ecrire une fois changer
-	$message += "<br/><a href='".URL."index.php?pg=3&vd=".$t."'>".URL."index.php?pg=3&vd=".$t."</a><br/>";
+	$message += "<br/><a href='".URL."index.php?page=4&token=".$t."&email=".$e."'>".URL."index.php?page=3&token=".$t."&email=".$e."</a><br/>";
 	$message += EN_VALIDEMES2;
 	$sujet = EN_VALIDESUJET;
 	$header = "";

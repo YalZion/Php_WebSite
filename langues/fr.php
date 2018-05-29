@@ -34,4 +34,10 @@ define("CO_BOUTON", "Se connecter");
 define("CO_ACTIVENON", "Le compte n'est pas encore activer.");
 define("CO_PASSENON", "Le groupe mot de passe / login existe pas.");
 
+// validation
+define("VA_INCORRECT", "La validation n'a pas ete effectuer.");
+define("VA_SUCCESS", "La validation a ete effectuer.");
+define("VA_EMAILNON", "L'email est invalide.");
+define("VA_DEJAVALIDER", "Le compte est deja valider.");
+
 ?>

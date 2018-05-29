@@ -13,18 +13,7 @@ if ($page == 2 && fCheck($_SESSION['user']['login']))
 if ($page == 3 && !fCheck($_SESSION['user']['login']))
 	$page = 1;
 
-if ($page < 1 || $page > 3)
+if (!in_array($page, $PageAccepter))
 	$page = 1;
-
-/*
----------------------------------------------------
-Pages :
----------------------------------------------------
-1 -> accueil
-2 -> inscription
-	* Impossible d'y acceder AVEC une Session ouverte
-3 -> deconnection
-	* Impossible d'y acceder SANS une Session ouverte
-*/
 
 ?>

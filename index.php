@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once("./conf/link.php");
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,12 +10,15 @@ require_once("./conf/link.php");
 </head>
 <body>
 	<?php
-	if ($page != 2)
+	if ($page != 2 && $con)
 		require_once("./formulaires/connection.php");
 	if ($page == 2)
-		require_once("./formulaires/inscrit.php");
+	 	require_once("./formulaires/inscrit.php");
 	if ($page == 3)
 		require_once("./traitements/deconnection.php");
+	echo "<hr/>";
+	if ($page == 4)
+		require_once("./traitements/valide.php");
 	?>
 </body>
 </html>

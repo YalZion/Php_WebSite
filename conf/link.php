@@ -13,7 +13,4 @@ require_once("./conf/class/Bdd.php");
 require_once("./conf/class/User.php");
 require_once("./conf/class/Check.php");
 
-require_once("./traitements/inscrit.php");
-require_once("./traitements/connection.php");
-
 ?>

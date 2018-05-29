@@ -28,6 +28,25 @@ class User {
 		else
 			return 2;
 	}
+	public static function token($e, $t) {
+		$r = Bdd::connect()->prepare("SELECT * FROM user WHERE email=:email");
+		$r->bindParam(':email', $e, PDO::PARAM_STR, 255);
+		$r->execute();
+		$d = $r->fetch(PDO::FETCH_ASSOC);
+		if ($t == $d['token']) {
+			if ($d['valide'] == 0) {
+				$tmp = 1;
+				$r = Bdd::connect()->prepare("UPDATE user SET valide=:valide WHERE email=:email");
+				$r->bindParam(':email', $e, PDO::PARAM_STR, 255);
+				$r->bindParam(':valide', $tmp);
+				$r->execute();
+			}
+			else
+				return 2;
+		}
+		else
+			return 1;
+	}
 }
 
 ?>
