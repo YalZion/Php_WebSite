@@ -18,3 +18,5 @@ Pour désactiver l'espace membre il faut :
 33 $LangueAccepter = array("fr");
 ```
 - Rajouter un fichier de traduction dans le dossier **langues** a partir du modele **fr.php**.
+#### Attention !
+_Le fichier doit avoir le meme nom que ce que vous avez ajouter au tableau avec l'extention .php_
