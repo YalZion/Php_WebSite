@@ -6,7 +6,10 @@ Mise en place d'un site web multifonction facilement configurable en PDO / PHP s
 ## Configuration (Fichier general.php)
 ### Espace Membre :
 Pour désactiver l'espace membre il faut :
-- Retirer les id 2, 3, 4 ainsi que mettre la variable $con a false;
+- Retirer les id ainsi que mettre la variable $con a false;
+	- 2 = inscriprion
+	- 3 = deconnection
+	- 4 = validation
 ```
 13 $con = false;
 ...
