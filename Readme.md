@@ -1,4 +1,4 @@
-# Status : En Cours de dévellopement
+# Status : En Cours de développement
 
 ## Php Website
 Mise en place d'un site web multifonction facilement configurable en PDO / PHP sans framework.
