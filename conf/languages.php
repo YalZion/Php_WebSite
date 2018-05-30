@@ -7,7 +7,7 @@ else if (fCheck($_GET['langue']))
 else
 	$langue = D_LANGUE;
 
-if ($langue != "fr")
+if (!in_array($langue, $LangueAccepter))
 	$langue = D_LANGUE;
 
 ?>

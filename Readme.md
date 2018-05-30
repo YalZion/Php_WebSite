@@ -16,6 +16,8 @@ Pour désactiver l'espace membre il faut :
 - Retirer ou ajouter les langues dans le tableau.
 ```
 33 $LangueAccepter = array("fr");
+...
+38 define("D_LANGUE", "fr"); // Langue par default
 ```
 - Rajouter un fichier de traduction dans le dossier **langues** a partir du modele **fr.php**.
 #### Attention !
