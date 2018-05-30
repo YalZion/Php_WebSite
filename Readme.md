@@ -20,5 +20,4 @@ Pour désactiver l'espace membre il faut :
 38 define("D_LANGUE", "fr"); // Langue par default
 ```
 - Rajouter un fichier de traduction dans le dossier **langues** a partir du modele **fr.php**.
-#### Attention !
-_Le fichier doit avoir le meme nom que ce que vous avez ajouter au tableau avec l'extention .php_
+#### _Attention ! Le fichier doit avoir le meme nom que ce que vous avez ajouter au tableau avec l'extention .php_
