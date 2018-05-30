@@ -30,6 +30,7 @@ Pages :
 */
 
 $PageAccepter = array(1, 2, 3, 4);
+$LangueAccepter = array("fr");
 
 define("DSN", $BddDsn);
 define("USER", $BddUser);
