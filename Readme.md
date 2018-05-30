@@ -1,4 +1,4 @@
-## Php Website (Status : En Cours de développement)
+## Php WebSite (Status : En Cours de développement)
 Mise en place d'un site web multifonction facilement configurable en PDO / PHP sans framework.
 
 ## Configuration (Fichier general.php)
